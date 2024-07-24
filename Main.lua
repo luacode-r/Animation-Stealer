@@ -222,8 +222,8 @@ end) ]]--
 
 task.wait(1)
 
-local player = game.Workspace.World.Characters.EvilPaluten895
-local humanoid = player.Humanoid
+local player = game.Players.EvilPaluten895
+local humanoid = player.Character.Humanoid
 
 local function convertToPath(dir)
 	local segments=dir:split(".")

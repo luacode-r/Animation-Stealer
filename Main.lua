@@ -222,7 +222,7 @@ end) ]]--
 
 task.wait(1)
 
-local player = game.Players.EvilPaluten895
+local player = game.Players.Localplayer
 local humanoid = player.Character.Humanoid
 
 local function convertToPath(dir)
